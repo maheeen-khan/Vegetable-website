@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.elegant{
+    width: 104px;
+    height: 30px;
+    top: 1px;
+    left: 21px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.own-btn{
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.nav-item button{
+    background: transparent !important;
+}
+.cross{
+    width: 21px;
+height: 17px;
+top: 15px;
+left: 21px;
+gap: 0px;
+opacity: 0px;
+
+}
+.cart{
+    width: 21px;
+height: 17px;
+top: 15px;
+left: 21px;
+gap: 0px;
+opacity: 0px;
+
+}
+.o{
+    background-color: brown;
+    width: 540px;
+height: 411.69px;
+gap: 0px;
+opacity: 0px;
+
+}
+.t{
+    background-color: aquamarine;
+    width: 570px;
+height: 432.93px;
+gap: 0px;
+opacity: 0px;
+
+}
+.front-img{
+    width: 100%;
+    height: inherit;
+}
+.front-head-1{
+    font-family: Poppins;
+font-size: 65px;
+font-weight: 600;
+line-height: 84px;
+text-align: left;
+
+}
+.front-head-2{
+    font-family: Poppins;
+font-size: 65px;
+font-weight: 600;
+line-height: 84px;
+text-align: left;
+color: #ECAD15;
+
+}
+.para{
+    width: Fixed (459px)px;
+height: Fixed (72px)px;
+top: 242px;
+left: 15px;
+gap: 0px;
+opacity: 0px;
+
+}
+.front-btn{
+    border-radius: 0 !important;
+}
