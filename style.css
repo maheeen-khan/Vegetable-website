@@ -1,9 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-.elegant{
+
+.elegant {
     width: 104px;
     height: 30px;
     top: 1px;
@@ -12,137 +13,197 @@
     opacity: 0px;
 
 }
-.own-btn{
+
+.own-btn {
     border: 1px solid gray;
     border-radius: 2px;
     padding: 6px;
 }
-.nav-item button{
+
+.nav-item button {
     background: transparent !important;
 }
-.cross{
+
+.cross {
     width: 21px;
-height: 17px;
-top: 15px;
-left: 21px;
-gap: 0px;
-opacity: 0px;
+    height: 17px;
+    top: 15px;
+    left: 21px;
+    gap: 0px;
+    opacity: 0px;
 
 }
-.cart{
+
+.cart {
     width: 21px;
-height: 17px;
-top: 15px;
-left: 21px;
-gap: 0px;
-opacity: 0px;
+    height: 17px;
+    top: 15px;
+    left: 21px;
+    gap: 0px;
+    opacity: 0px;
 
 }
-.o{
+
+.o {
     background-color: brown;
     width: 540px;
-/* height: 411.69px; */
-gap: 0px;
-opacity: 0px;
+    /* height: 411.69px; */
+    gap: 0px;
+    opacity: 0px;
 
 }
-.t{
+
+.t {
     background-color: aquamarine;
     width: 570px;
-height: 411.69px;
-gap: 0px;
-opacity: 0px;
+    height: 411.69px;
+    gap: 0px;
+    opacity: 0px;
 
 }
-.front-img{
+
+.front-img {
     width: 100%;
     height: inherit;
 }
-.front-head-1{
+
+.front-head-1 {
     font-family: Poppins;
-font-size: 65px;
-font-weight: 600;
-line-height: 84px;
-text-align: left;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 84px;
+    text-align: left;
 
 }
-.front-head-2{
+
+.front-head-2 {
     font-family: Poppins;
-font-size: 65px;
-font-weight: 600;
-line-height: 84px;
-text-align: left;
-color: #ECAD15;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 84px;
+    text-align: left;
+    color: #ECAD15;
 
 }
-.para{
+
+.para {
     width: Fixed (459px)px;
-height: Fixed (72px)px;
-top: 242px;
-left: 15px;
-gap: 0px;
-opacity: 0px;
+    height: Fixed (72px)px;
+    top: 242px;
+    left: 15px;
+    gap: 0px;
+    opacity: 0px;
 
 }
-.front-btn{
+
+.front-btn {
     border-radius: 0 !important;
 }
-.back{
+
+.back {
     width: 65px;
-height: 65px;
-top: 432.92px;
-left: -85px;
-gap: 0px;
-border-radius: 100px 0px 0px 0px;
-opacity: 0px;
-background-color:#252525;
-/* padding-left: 33px !important; */
+    height: 65px;
+    top: 432.92px;
+    left: -85px;
+    gap: 0px;
+    border-radius: 100px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #252525;
+    /* padding-left: 33px !important; */
 
 
 }
-.forward{
+
+.forward {
     width: 25px;
-height: 65px;
-/* top: 432.92px; */
-gap: 0px;
-border-radius: 50%;
-opacity: 0px;
-background-color:#ECAD15;
-/* padding-left: 35px !important; */
+    height: 65px;
+    /* top: 432.92px; */
+    gap: 0px;
+    border-radius: 50%;
+    opacity: 0px;
+    background-color: #ECAD15;
+    /* padding-left: 35px !important; */
 
 }
-.back-img{
+
+.back-img {
     width: 25px;
 }
-.forward-img{
+
+.forward-img {
     width: 25px;
 
 }
+
+/* Second POrtion........................................... */
+
+.two {
+    /* background-color: burlywood; */
+    border: 2px solid blue;
+    width: 60%;
+}
+
+.tf {
+    border: 2px solid purple;
+}
+
+.sec-heading {
+    font-weight: bolder;
+    top: 57px;
+    left: 15px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.Sec-img {
+    /* translate: -65px; */
+    width: 100%;
+    height: inherit;
+    /* top: 212px;
+    left: 119px; */
+    /* gap: 0px;
+    opacity: 0px; */
+    border: 2px solid yellow;
+    /* background-color: red; */
+}
+
 /* Media Query */
 
-@media screen and (max-width:426px){
-    .nav-item{
+@media screen and (max-width:426px) {
+    .nav-item {
         margin-bottom: 8px !important;
     }
-    .forward{
+
+    .forward {
         width: 50px;
         height: 35px;
         padding-left: 7px !important;
         padding-top: 4px;
     }
-    .back{
+
+    .back {
         width: 50px;
         height: 35px;
         padding-left: 7px !important;
         padding-top: 4px;
 
     }
-    .back-img{
-        width: 10px;
-    }
-    .forward-img{
+
+    .back-img {
         width: 10px;
     }
 
- 
+    .forward-img {
+        width: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    .two {
+        border: 2px solid blue;
+        width: 100%;
+    }
 }
