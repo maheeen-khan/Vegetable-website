@@ -15,6 +15,7 @@
 .own-btn{
     border: 1px solid gray;
     border-radius: 2px;
+    padding: 6px;
 }
 .nav-item button{
     background: transparent !important;
@@ -85,4 +86,63 @@ opacity: 0px;
 }
 .front-btn{
     border-radius: 0 !important;
+}
+.back{
+    width: 65px;
+height: 65px;
+top: 432.92px;
+left: -85px;
+gap: 0px;
+border-radius: 100px 0px 0px 0px;
+opacity: 0px;
+background-color:#252525;
+/* padding-left: 33px !important; */
+
+
+}
+.forward{
+    width: 25px;
+height: 65px;
+/* top: 432.92px; */
+gap: 0px;
+border-radius: 50%;
+opacity: 0px;
+background-color:#ECAD15;
+/* padding-left: 35px !important; */
+
+}
+.back-img{
+    width: 25px;
+}
+.forward-img{
+    width: 25px;
+
+}
+/* Media Query */
+
+@media screen and (max-width:426px){
+    .nav-item{
+        margin-bottom: 8px !important;
+    }
+    .forward{
+        width: 50px;
+        height: 35px;
+        padding-left: 7px !important;
+        padding-top: 4px;
+    }
+    .back{
+        width: 50px;
+        height: 35px;
+        padding-left: 7px !important;
+        padding-top: 4px;
+
+    }
+    .back-img{
+        width: 10px;
+    }
+    .forward-img{
+        width: 10px;
+    }
+
+ 
 }
