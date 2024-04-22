@@ -100,41 +100,6 @@
     border-radius: 0 !important;
 }
 
-.back {
-    width: 65px;
-    height: 65px;
-    top: 432.92px;
-    left: -85px;
-    gap: 0px;
-    border-radius: 100px 0px 0px 0px;
-    opacity: 0px;
-    background-color: #252525;
-    /* padding-left: 33px !important; */
-
-
-}
-
-.forward {
-    width: 25px;
-    height: 65px;
-    /* top: 432.92px; */
-    gap: 0px;
-    border-radius: 50%;
-    opacity: 0px;
-    background-color: #ECAD15;
-    /* padding-left: 35px !important; */
-
-}
-
-.back-img {
-    width: 25px;
-}
-
-.forward-img {
-    width: 25px;
-
-}
-
 /* Second POrtion........................................... */
 
 .two {
@@ -168,42 +133,99 @@
     /* background-color: red; */
 }
 
+/* Third Section...................................... */
+
+.Third {
+    background-color: chartreuse;
+}
+
+.yellow {
+    color: #ECAD15 !important;
+}
+
+.card {
+    border: 2px dashed gray !important;
+}
+
+.cabb {
+    width: 102px !important;
+}
+
+.brinjal {
+    width: 95px !important;
+}
+
+.Bottle-Gourd {
+    width: 120px !important;
+
+}
+
+.Lady-finger {
+    width: 154px !important;
+}
+
+.Apple {
+    width: 78px !important;
+}
+
+.Potato {
+    width: 138px !important;
+}
+
+.Capsicum {
+    width: 104px !important;
+}
+
+.Pumpkin-Patch {
+    width: 109px !important;
+}
+
+.Green-chilli {
+    width: 153px !important;
+}
+
+.Kof-Radish {
+    width: 154px !important;
+}
+
+
+
+/* Fourth Portion */
+
+.fourth-fluid {
+    background-color: #F9F9F9;
+
+}
+
+.fourth-img {
+    width: 100%;
+    height: inherit;
+}
+
+.Fourth {
+    border: 2px solid orangered;
+    width: 75%;
+}
+
 /* Media Query */
 
 @media screen and (max-width:426px) {
     .nav-item {
         margin-bottom: 8px !important;
     }
-
-    .forward {
-        width: 50px;
-        height: 35px;
-        padding-left: 7px !important;
-        padding-top: 4px;
-    }
-
-    .back {
-        width: 50px;
-        height: 35px;
-        padding-left: 7px !important;
-        padding-top: 4px;
-
-    }
-
-    .back-img {
-        width: 10px;
-    }
-
-    .forward-img {
-        width: 10px;
-    }
-
-
 }
 
 @media screen and (max-width:768px) {
-    .two {
+
+    .two,
+    .Fourth {
         border: 2px solid blue;
         width: 100%;
     }
+
+    .fourth_para {
+        margin-top: 28px;
+    }
 }
+
+@media screen and (m) {}
