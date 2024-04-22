@@ -244,6 +244,44 @@
     text-align: right;
 }
 
+/* Sixth Section */
+
+.sixth-fluid {
+    background-color: #FAFAFA;
+
+}
+
+.sixth-inner {
+    background-color: #c8dd0b;
+    width: 75% !important;
+}
+
+input,
+textarea {
+    border-bottom: 2px solid gray !important;
+}
+
+/* input{
+    width: 50% !important;
+    height: 50px;
+}
+textarea{
+    width: 50% !important;
+
+} */
+.send-btn {
+    color: white !important;
+}
+
+.iFrame {
+    /* border: 3px solid rebeccapurple; */
+}
+
+.ratio {
+    border-width: 5px;
+    border-style: outset;
+}
+
 /* Media Query */
 
 @media screen and (max-width:426px) {
@@ -251,8 +289,13 @@
         margin-bottom: 8px !important;
     }
 
-    .fifth {
+    .fifth,
+    .sixth-inner {
         width: 100% !important;
+    }
+
+    .five {
+        width: 100%;
     }
 }
 
@@ -273,6 +316,10 @@
     }
 
     .sm-Tomato {
+        display: none;
+    }
+
+    .sm-app {
         display: none;
     }
 
