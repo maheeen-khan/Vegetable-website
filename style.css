@@ -271,6 +271,7 @@ textarea{
 } */
 .send-btn {
     color: white !important;
+    border-radius: 35px !important;
 }
 
 .iFrame {
@@ -280,6 +281,15 @@ textarea{
 .ratio {
     border-width: 5px;
     border-style: outset;
+}
+
+/* footer */
+.footer {
+    background-color: #000000;
+}
+
+.footer a {
+    text-decoration: none;
 }
 
 /* Media Query */
@@ -323,6 +333,11 @@ textarea{
         display: none;
     }
 
+    .footer-1,
+    .footer-2,
+    .footer-3 {
+        text-align: left;
+    }
 }
 
 @media screen and (max-width:374px) {
