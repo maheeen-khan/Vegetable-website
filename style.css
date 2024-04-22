@@ -44,24 +44,6 @@
 
 }
 
-.o {
-    background-color: brown;
-    width: 540px;
-    /* height: 411.69px; */
-    gap: 0px;
-    opacity: 0px;
-
-}
-
-.t {
-    background-color: aquamarine;
-    width: 570px;
-    height: 411.69px;
-    gap: 0px;
-    opacity: 0px;
-
-}
-
 .front-img {
     width: 100%;
     height: inherit;
@@ -103,8 +85,6 @@
 /* Second POrtion........................................... */
 
 .two {
-    /* background-color: burlywood; */
-    border: 2px solid blue;
     width: 60%;
 }
 
@@ -122,22 +102,12 @@
 }
 
 .Sec-img {
-    /* translate: -65px; */
     width: 100%;
     height: inherit;
-    /* top: 212px;
-    left: 119px; */
-    /* gap: 0px;
-    opacity: 0px; */
-    border: 2px solid yellow;
-    /* background-color: red; */
+
 }
 
 /* Third Section...................................... */
-
-.Third {
-    background-color: chartreuse;
-}
 
 .yellow {
     color: #ECAD15 !important;
@@ -188,7 +158,9 @@
     width: 154px !important;
 }
 
-
+.card:hover {
+    background-color: rgb(229, 229, 229);
+}
 
 /* Fourth Portion */
 
@@ -203,18 +175,12 @@
 }
 
 .Fourth {
-    border: 2px solid orangered;
     width: 75%;
 }
 
 /* fifth section.............................. */
 
-.fifth-main {
-    /* border: 2px solid rgb(62, 206, 18); */
-}
-
 .fifth {
-    background-color: #a9ed2b;
     width: 75% !important;
 }
 
@@ -222,14 +188,6 @@
     display: flex;
     justify-content: flex-start;
     gap: 7px;
-}
-
-.five {
-    border: 3px solid blue;
-}
-
-.five-two {
-    border: 3px solid palevioletred;
 }
 
 .fifth-para {
@@ -252,30 +210,17 @@
 }
 
 .sixth-inner {
-    background-color: #c8dd0b;
     width: 75% !important;
 }
 
 input,
 textarea {
-    border-bottom: 2px solid gray !important;
+    border-bottom: 2px solid rgb(187, 186, 186) !important;
 }
 
-/* input{
-    width: 50% !important;
-    height: 50px;
-}
-textarea{
-    width: 50% !important;
-
-} */
 .send-btn {
     color: white !important;
     border-radius: 35px !important;
-}
-
-.iFrame {
-    /* border: 3px solid rebeccapurple; */
 }
 
 .ratio {
@@ -292,7 +237,13 @@ textarea{
     text-decoration: none;
 }
 
-/* Media Query */
+.gray {
+    color: rgb(108, 106, 106);
+}
+
+
+
+/* ........................Media Query.............................*/
 
 @media screen and (max-width:426px) {
     .nav-item {
