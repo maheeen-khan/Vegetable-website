@@ -159,7 +159,7 @@
 }
 
 .card:hover {
-    background-color: rgb(229, 229, 229);
+    background-color: rgb(246, 242, 242);
 }
 
 /* Fourth Portion */
@@ -258,6 +258,9 @@ textarea {
     .five {
         width: 100%;
     }
+    .front-head-1,.front-head-2,.front-button{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -289,6 +292,10 @@ textarea {
     .footer-3 {
         text-align: left;
     }
+    .footer {
+        margin-top: 30px;
+    }
+
 }
 
 @media screen and (max-width:374px) {
